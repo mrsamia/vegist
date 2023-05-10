@@ -21,7 +21,7 @@ function HeroSlider(props) {
                             <p class="text-lg text-[#f0a843] text-left font-medium pl-16">First 10 sales 10% offer</p>
                         </div>
                         <div className='pt-5'>
-                            <h2 class="text-[50px] text-[#232323] font-semibold text-left  pl-16 leading-none">Enjoying<br></br>grocery</h2>
+                            <h2 class="text-[50px] text-[#232323] font-semibold text-left  pl-16 leading-tight">Enjoying<br></br>grocery</h2>
                         </div>
                         <div className='pt-8'>
                             <ShopNowBtn/>
@@ -30,8 +30,19 @@ function HeroSlider(props) {
 
 
                 </div>
-                <div class="">
-                    <img src={require('../Images/slider-02.webp')} />
+                <div class="relative">
+                    <img  src={require('../Images/slider-02.webp')} />
+                    <div class="absolute inset-y-1/3 ">
+                        <div>
+                            <p class="text-lg text-[#f0a843] text-left font-medium pl-16">First 10 sales 10% offer</p>
+                        </div>
+                        <div className='pt-5'>
+                            <h2 class="text-[50px] text-[#232323] font-semibold text-left  pl-16 leading-tight">Enjoying<br></br>grocery</h2>
+                        </div>
+                        <div className='pt-8'>
+                            <ShopNowBtn/>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <img src={require('../Images/slider-03.webp')} />
