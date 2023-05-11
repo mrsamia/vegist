@@ -17,7 +17,7 @@ function Home(props) {
                             <p class="text-[28px] font-semibold pb-3">Vegetable <br></br>Supermarket</p>
                         </div>
                         <div>
-                        <ShopNowBtn/>
+                            <ShopNowBtn />
                         </div>
                     </div>
                 </div>
@@ -26,12 +26,12 @@ function Home(props) {
                 </div>
             </section>
             <section>
-               <SectionTitle name="Shop by category"/>
-               <div className='flex justify-center pb-10 pt-10'>
-               <CategorySlider/>  
-               </div>
-            
-           
+                <SectionTitle name="Shop by category" />
+                <div className='flex justify-center pb-10 pt-10'>
+                    <CategorySlider />
+                </div>
+
+
             </section>
         </div>
     );
