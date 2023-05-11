@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSlider from '../Components/HeroSlider';
 import SectionTitle from '../Components/SectionTitle';
 import ShopNowBtn from '../Components/ShopNowBtn';
-import SingleCategory from '../Components/SingleCategory';
+import CategorySlider from '../Components/CategorySlider';
 
 
 function Home(props) {
@@ -28,9 +28,10 @@ function Home(props) {
             <section>
                <SectionTitle name="Shop by category"/>
                <div className='flex justify-center pb-10 pt-10'>
-                <SingleCategory/>    
+               <CategorySlider/>  
                </div>
             
+           
             </section>
         </div>
     );
